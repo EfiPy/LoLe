@@ -45,3 +45,4 @@ Kmem read **16 bits** value from physical address **0xB0000000**. It is the same
     sudo hexdump -C /sys/firmware/acpi/tables/MCFG
 #Download LoLe Library  
 Library [Download](https://sourceforge.net/projects/lole/)
+[Blog](https://lolepython.blogspot.com/)
