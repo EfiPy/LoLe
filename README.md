@@ -1,7 +1,18 @@
 # LOLE  
-Python3 library.  
-This library uses subscript operator (square brackets []) to read/write address space in CPU or registers in peripheral.  
+Python3 array library.  
+Each element in array supports bitwise operation.  
+LoLe uses subscript operator (square brackets []) to read/write address space in CPU or registers in peripheral.  
 Different access target uses difference LoLe driver.  
+# EXAMPLE - Bitwise operation
+```
+from LoLe.Mem import Mem32              # import Mem driver
+TestMem = Mem32 (0x20)                  # allocate memory with 0x20bytes width
+TestWord = TestMem[0x04]                # Set TestWord as 4 bytes (32bits) buffer from offset 0x04
+TestWord[3] = 1                         # Set the 3rd bit as 1, other bits remain the same.
+print (TestWord, TestWord[3])           # print TestWord and its 3rd bit.
+TestWord[3] = 0                         # Set the 3rd bit as 0, other bits remain the same.
+print (TestWord[3], TestWord[3])        # print TestWord and its 3rd bit, again.
+```
 # EXAMPLE - Write string to file
 ```
 import os
