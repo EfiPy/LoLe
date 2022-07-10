@@ -93,7 +93,7 @@ setup(
     long_description  = "Python array/bits operator",
     long_description_content_type = "text/markdown",
     author            = "MaxWu",
-    url               = "https://sourceforge.net/projects/lole/",
+    url               = "https://github.com/EfiPy/LoLe",
     author_email      = "EfiPy.Core@gmail.com",
     license           = 'CLOSED',
     platforms         = ['Linux', 'Windows'],
