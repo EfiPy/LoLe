@@ -44,3 +44,6 @@ Kmem32[0xb0000000:0xb0000003].bit[0:31]: 0x29C08086
 Kmem32[0xb0000000:0xb0000003].bit[0:15]: 0x8086
 >>>
 ```
+
+# Blog
+https://lolepython.blogspot.com/
