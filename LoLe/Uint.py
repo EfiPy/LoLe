@@ -3,12 +3,12 @@
 #
 #   EfiPy.core@gmail.com
 #
-from LoLe.Driver.UintDrvPy import DefaultWidth
+from LoLe.Driver.UintDrv import DefaultWidth
 
-def UintPy (Value=None, BitWidth = DefaultWidth):
+def Uint (Value=None, BitWidth = DefaultWidth):
 
   from LoLe import LoLeOp
-  from LoLe.Driver.UintDrvPy import UintDrvPy, MaxWidth
+  from LoLe.Driver.UintDrv import UintDrv, MaxWidth
   from LoLe.Operator.MemOp import MemOp
 
   if BitWidth == None:
@@ -22,7 +22,7 @@ def UintPy (Value=None, BitWidth = DefaultWidth):
     'Step':         0x01,
     'Width':        BitWidth,
     'OpClass':      MemOp,
-    'Driver':       UintDrvPy,
+    'Driver':       UintDrv,
     'Private':      Value,
     'FieldDict':    None,
     'Ds':           None,

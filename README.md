@@ -4,7 +4,7 @@ Read/Write data by physical address
 
 # Download
 
-[LoLe-0.1.4.tgz](https://drive.google.com/file/d/1OPYTCp5OwP1PjxV4XzD2EC3hH_2F7rSO/view?usp=sharing)
+[LoLe-0.1.5.tgz](https://drive.google.com/file/d/1GmG3MZjCPvkD_viMJJRYj1IbNRsHCr00/view?usp=sharing)
 
 # Installation (root privilege)
 
@@ -17,7 +17,7 @@ apt install python3-pip
 ```
 Install LoLe
 ```shell (root)
-pip3 install LoLe-0.1.4.tgz
+pip3 install LoLe-0.1.5.tgz
 ```
 
 # Example
@@ -34,7 +34,7 @@ Python 3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> from LoLe.Kmem import Kmem8, Kmem16, Kmem32, Kmem64
 -----------------------------------
-LoLe Evaluation version: 00.01.000
+LoLe version: 00.01.005
 Author MaxWu (EfiPy.Core@gmail.com)
 ===================================
 >>> Kmem = Kmem32 (0x10000000000000000)

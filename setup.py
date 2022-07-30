@@ -88,12 +88,12 @@ for d in InstallDir:
 
 setup(
     name              = 'LoLe',
-    version           = '0.1.4',
+    version           = '0.1.5',
     description       = "Python array/bits operator",
     long_description  = "Python array/bits operator",
     long_description_content_type = "text/markdown",
     author            = "MaxWu",
-    url               = "https://github.com/EfiPy/LoLe",
+    url               = "https://sourceforge.net/projects/lole/",
     author_email      = "EfiPy.Core@gmail.com",
     license           = 'CLOSED',
     platforms         = ['Linux', 'Windows'],
