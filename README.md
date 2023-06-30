@@ -5,6 +5,7 @@ Read/Write data by physical address
 # Download
 
 [LoLe-0.1.5.tgz](https://drive.google.com/file/d/1GmG3MZjCPvkD_viMJJRYj1IbNRsHCr00/view?usp=sharing)
+[LoLe-0.1.6.tgz](https://drive.google.com/file/d/1SFW-j6SgeRSjZzZGyKVl2IPRT7oq12gh/view?usp=drive_link)
 
 # Installation (root privilege)
 
